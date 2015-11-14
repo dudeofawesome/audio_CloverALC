@@ -21,7 +21,7 @@ The Clover Patched Realtek ALC method enables OS X AppleHDA onboard audio with o
 **A. Requirements**
 
 1.  OS X/Clover_v2696 or newer
-    1.  10.11/El Capitan, set boot flag: rootless=0 
+    1.  10.11/El Capitan, set boot flag: rootless=0
     2.  10.10/Yosemite, set boot flag: kext-dev-mode=1
     3.  10.9/Mavericks
     4.  10.8/Mountain Lionon
@@ -32,28 +32,29 @@ The Clover Patched Realtek ALC method enables OS X AppleHDA onboard audio with o
 
 **B. Realtek ALCxxx** (verify codec and Audio ID)
 
-1.  Supported codecs
-    1.  269 (BRIX only)
-    2.  283 (BRIX Pro and NUC only)
-    3.  885
-    4.  887
-    5.  888
-    6.  889
-    7.  892
-    8.  898
-    9.  1150
-2.  Supported Audio IDs
-    -  Audio ID: 1 supports 269, 283, 885, 887, 888, 889, 892, 898, 1150
-
-        Realtek ALC audio (default, 1/2/3/5/6 motherboard audio ports)
-
-    -  Audio ID: 2 supports 887, 888, 889, 892, 898, 1150
-
-        Realtek ALC/5.1 surround sound (3 motherboard audio ports)
-
-    -  Audio ID: 3 supports 887, 888, 889, 892, 898, 1150
-
-        HD3000/HD4000 HDMI audio with Realtek ALC audio
+-  Supported codecs
+    - 269 (BRIX only)
+    - 283 (BRIX Pro and NUC only)
+    - 885
+    - 887
+    - 888
+    - 889
+    - 892
+    - 898
+    - 1150
+-  Supported Audio IDs
+    1. supports 269, 283, 885, 887, 888, 889, 892, 898, 1150
+        - up to 5.1 surround sound output channels
+        - 1, 2, 3, 5, or 6 motherboard audio ports
+        - Intel HD5000, AMD, Nvidia HDMI audio (requires DSDT edit)
+    2. supports 887, 888, 889, 892, 898, 1150
+        - up to 5.1 surround sound output channels
+        - 3 motherboard audio ports
+        - Intel HD5000, AMD, Nvidia HDMI audio (requires DSDT edit)
+    3. supports 887, 888, 889, 892, 898, 1150
+        - up to 2.1 output channels
+        - 3, 5, or 6 motherboard audio ports
+        - Intel HD3000, Intel HD4000, AMD, Nvidia HDMI audio (requires DSDT edit)
 
 **C. Installation**
 
