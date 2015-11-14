@@ -46,15 +46,15 @@ The Clover Patched Realtek ALC method enables OS X AppleHDA onboard audio with o
     - ID 1 supports 269, 283, 885, 887, 888, 889, 892, 898, 1150
         - up to 5.1 surround sound output channels
         - 1, 2, 3, 5, or 6 motherboard audio ports
-        - Intel HD5000, AMD, Nvidia HDMI audio (requires DSDT edit)
+        - Compatible with Intel HD4600, Intel HD5000, AMD, Nvidia HDMI audio (requires DSDT edit)
     - ID 2 supports 887, 888, 889, 892, 898, 1150
         - up to 5.1 surround sound output channels
         - 3 motherboard audio ports
-        - Intel HD5000, AMD, Nvidia HDMI audio (requires DSDT edit)
+        - Compatible with Intel HD4600, Intel HD5000, AMD, Nvidia HDMI audio (requires DSDT edit)
     - ID 3 supports 887, 888, 889, 892, 898, 1150
         - up to 2.1 output channels
         - 3, 5, or 6 motherboard audio ports
-        - Intel HD3000, Intel HD4000, AMD, Nvidia HDMI audio (requires DSDT edit)
+        - Compatible with Intel HD3000, Intel HD4000, AMD, Nvidia HDMI audio (requires DSDT edit)
 
 **C. Installation**
 
